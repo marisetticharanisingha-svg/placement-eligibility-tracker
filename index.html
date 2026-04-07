@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login - Placement Eligibility Tracker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎓 Student Login</h1>
+        <div id="message"></div>
+        
+        <form onsubmit="loginStudent(event)">
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter password (min 6 characters)" required minlength="6">
+            </div>
+            
+            <button type="submit" class="btn">Login</button>
+        </form>
+        
+        <div style="text-align: center; margin-top: 20px; color: #666;">
+            <p>Demo: Use any email with password (min 6 chars)</p>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px;">
+            <a href="admin.html" style="color: #667eea; text-decoration: none; font-weight: 600;">
+                👨‍💼 Go to Admin Panel
+            </a>
+        </div>
+    </div>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>

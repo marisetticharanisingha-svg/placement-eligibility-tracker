@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eligible Companies - Placement Eligibility Tracker</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container" style="max-width: 1000px;">
+        <h1>🎯 Your Eligible Companies</h1>
+        
+        <div style="margin-bottom: 20px; text-align: center; color: #666;">
+            Based on your CGPA and backlog criteria
+        </div>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Company Name</th>
+                    <th>Category</th>
+                    <th>Type</th>
+                    <th>Branch Location</th>
+                    <th>Role Offered</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="resultsBody">
+                <!-- Results will be populated by JavaScript -->
+            </tbody>
+        </table>
+        
+        <div style="margin-top: 30px; text-align: center;">
+            <button onclick="window.location.href='student-details.html'" class="btn btn-secondary" style="width: auto; padding: 10px 30px;">
+                ← Check Again
+            </button>
+            <button onclick="window.location.href='index.html'" class="btn" style="width: auto; padding: 10px 30px; margin-left: 10px;">
+                Logout
+            </button>
+        </div>
+    </div>
+    
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
